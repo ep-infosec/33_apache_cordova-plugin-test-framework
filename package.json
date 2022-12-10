@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-test-framework",
+  "version": "2.0.0-dev",
+  "description": "Cordova Test Framework Plugin",
+  "cordova": {
+    "id": "cordova-plugin-test-framework",
+    "platforms": []
+  },
+  "repository": "github:apache/cordova-plugin-test-framework",
+  "bugs": "https://github.com/apache/cordova-plugin-test-framework/issues",
+  "keywords": [
+    "cordova",
+    "test",
+    "ecosystem:cordova"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  }
+}
